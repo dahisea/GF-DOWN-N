@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/scripts/*"
+  to = "https://cdn-1-mod-ugf.zh-cn.eu.org/scripts/:splat"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/*"
+  to = "https://mirror.accum.se/:splat"
+  status = 200
+  force = true
