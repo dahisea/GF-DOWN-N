@@ -6,7 +6,7 @@
 
 [[redirects]]
   from = "/scripts/*"
-  to = "https://cdn-1-mod-ugf.zh-cn.eu.org/scripts/:splat"
+  to = "http://naniydfits.xn--0d3aq50a.cn.eu.org/scripts/:splat"
   status = 200
   force = true
   
