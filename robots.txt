@@ -1,0 +1,121 @@
+# robots.txt for mirror
+# This file specifies what harvesting robots are allowed to index and not.
+#
+# For information on the original format: 
+# http://www.robotstxt.org/
+#
+# For information on updated format that allows wildcards:
+# https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt
+
+User-agent: *
+# Rules without wildcards - original spec
+Disallow: /cdimage/.debian-mirror
+Disallow: /cdimage/snapshot
+Disallow: /mirror/cdimage/.debian-mirror
+Disallow: /mirror/cdimage/snapshot
+Disallow: /debian/pool
+Disallow: /mirror/debian/pool
+Disallow: /mirror/ubuntu/pool
+Disallow: /pub/debian/pool
+Disallow: /ubuntu/pool
+Disallow: /mirror/archlinux/pool
+Disallow: /mirror/debian-multimedia/pool
+Disallow: /mirror/linuxdeepin/packages/pool
+Disallow: /mirror/linuxmint.com/packages/pool
+Disallow: /mirror/osdn.net
+Disallow: /mirror/parrotsec.org/parrot/pool
+Disallow: /mirror/raspbian/mate/pool
+Disallow: /mirror/raspbian/multiarchcross/pool
+Disallow: /mirror/raspbian/raspbian/pool
+Disallow: /mirror/solydxk.com/repository/pool
+Disallow: /mirror/temp
+Disallow: /mirror/trisquel/packages/pool
+Disallow: /mirror/videolan.org/debian/pool
+Disallow: /mirror/videolan.org/ubuntu/pool
+Disallow: /mirror/opensuse.org/tumbleweed/repo
+Disallow: /mirror/fedora/enchilada/linux
+Disallow: /
+# Rules with wildcards - enhanced spec
+Allow: /icons/*.png$
+Allow: /icons2/*.png$
+Disallow: /*.iso$
+Disallow: /*.deb$
+Disallow: /*.rpm$
+Disallow: /*.gz$
+Disallow: /*.bz2$
+Disallow: /*.xz$
+Disallow: /*.arj$
+Disallow: /*.rar$
+Disallow: /*.zip$
+Disallow: /*.lzh$
+Disallow: /*.lha$
+Disallow: /*.7z$
+Disallow: /*.avi$
+Disallow: /*.wmv$
+Disallow: /*.mpg$
+Disallow: /*.mpeg$
+Disallow: /*.mp4$
+Disallow: /*.mkv$
+Disallow: /*.flv$
+Disallow: /*.qt$
+Disallow: /*.mov$
+Disallow: /*.m4v$
+Disallow: /*.webm$
+Disallow: /*.mp3$
+Disallow: /*.ogg$
+Disallow: /*.gif$
+Disallow: /*.png$
+Disallow: /*.jpg$
+Disallow: /*.dmg$
+Disallow: /*.zim$
+
+# AI robots, from https://github.com/ai-robots-txt/ai.robots.txt/blob/main/robots.txt
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+User-agent: Amazonbot
+User-agent: anthropic-ai
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Brightbot 1.0
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: Crawlspace
+User-agent: Diffbot
+User-agent: DuckAssistBot
+User-agent: FacebookBot
+User-agent: FriendlyCrawler
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+User-agent: GPTBot
+User-agent: iaskspider/2.0
+User-agent: ICC-Crawler
+User-agent: ImagesiftBot
+User-agent: img2dataset
+User-agent: imgproxy
+User-agent: ISSCyberRiskCrawler
+User-agent: Kangaroo Bot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: OAI-SearchBot
+User-agent: omgili
+User-agent: omgilibot
+User-agent: PanguBot
+User-agent: Perplexity-User
+User-agent: PerplexityBot
+User-agent: PetalBot
+User-agent: Scrapy
+User-agent: SemrushBot-OCOB
+User-agent: SemrushBot-SWA
+User-agent: Sidetrade indexer bot
+User-agent: Timpibot
+User-agent: VelenPublicWebCrawler
+User-agent: Webzio-Extended
+User-agent: YouBot
+Disallow: /
