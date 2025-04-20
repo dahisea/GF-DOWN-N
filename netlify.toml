@@ -6,7 +6,7 @@
 
 [[redirects]]
   from = "/scripts/481396*"
-  to = "https://mirror.accum.se/:splat"
+  to = "https://mirror.accum.se/scripts/481396:splat"
   status = 307
   force = true
 
