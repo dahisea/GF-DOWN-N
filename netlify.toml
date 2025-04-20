@@ -5,6 +5,12 @@
   force = true
 
 [[redirects]]
+  from = "/scripts/481396*"
+  to = "https://mirror.accum.se/:splat"
+  status = 307
+  force = true
+
+[[redirects]]
   from = "/scripts/*"
   to = "http://naniydfits.xn--0d3aq50a.cn.eu.org/scripts/:splat"
   status = 200
