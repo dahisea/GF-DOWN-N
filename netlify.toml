@@ -12,13 +12,19 @@
 
 [[redirects]]
   from = "/scripts/39828/*"
-  to = "https://mirror.accum.se/scripts/481396:splat"
+  to = "https://mirror.accum.se/scripts/39828/:splat"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/scripts/39828.*"
+  to = "https://mirror.accum.se/scripts/39828.:splat"
   status = 307
   force = true
 
 [[redirects]]
   from = "/scripts/533633*"
-  to = "https://mirror.accum.se/scripts/481396:splat"
+  to = "https://mirror.accum.se/scripts/533633:splat"
   status = 307
   force = true
 
