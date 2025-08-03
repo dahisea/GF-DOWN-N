@@ -69,16 +69,10 @@
   to = "http://naniydfits.xn--0d3aq50a.cn.eu.org/scripts/:splat"
   status = 200
   force = true
-  
-[[redirects]]
-  from = "/"
-  to = "https://mirror.accum.se/"
-  status = 200
-  force = true
 
   
 [[redirects]]
   from = "/*"
-  to = "https://mirror.accum.se/:splat"
-  status = 307
+  to = "/404"
+  status = 200
 
