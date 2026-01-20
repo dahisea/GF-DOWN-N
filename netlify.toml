@@ -33,6 +33,6 @@
 
 [[redirects]]
   from = "/scripts/*"
-  to = "https://web-static-res-edge-speedtest-b1-hk.dahi.edu.eu.org/scripts/:splat"
+  to = "https://tencent.api-data-abtest-config.dahi.edu.eu.org/scripts/:splat"
   status = 200
   force = true
