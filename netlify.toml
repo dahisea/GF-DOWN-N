@@ -1,44 +1,11 @@
-[[redirects]]
-  from = "/site.webmanifest"
-  to = "https://cdn.greasyfork.org.cn/site.webmanifest"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/favicon-32x32.png"
-  to = "https://cdn.greasyfork.org.cn/favicon-32x32.png"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/favicon-16x16.png"
-  to = "https://cdn.greasyfork.org.cn/favicon-16x16.png"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/favicon.ico"
-  to = "https://cdn.greasyfork.org.cn/favicon.ico"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/apple-touch-icon.png"
-  to = "https://cdn.greasyfork.org.cn/apple-touch-icon.png"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/android-chrome-512x512.png"
-  to = "https://cdn.greasyfork.org.cn/android-chrome-512x512.png"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/android-chrome-192x192.png"
-  to = "https://cdn.greasyfork.org.cn/android-chrome-192x192.png"
-  status = 200
-  force = true
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization, X-Requested-With"
+    Access-Control-Allow-Credentials = "true"
+    Access-Control-Max-Age = "86400"
 
 [[redirects]]
   from = "/scripts/481396*"
